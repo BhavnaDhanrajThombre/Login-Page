@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login - FastAPI App</title>
+  <link rel="stylesheet" href="/static/style.css" />
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div class="container">
+    <div class="login-card">
+      <h2><i class="fas fa-user-circle"></i> Welcome Back!!!</h2>
+      <form id="loginForm">
+        <div class="form-group">
+          <label for="username"><i class="fas fa-user"></i> Username</label>
+          <input type="text" id="username" placeholder="Enter your username" required />
+        </div>
+
+        <div class="form-group">
+          <label for="password"><i class="fas fa-lock"></i> Password</label>
+          <div class="password-wrapper">
+            <input type="password" id="password" placeholder="Enter your password" required />
+            <span id="togglePassword" class="toggle-password"><i class="fas fa-eye"></i></span>
+          </div>
+        </div>
+
+        <a href="/forgot-password" class="link">Forgot Password?</a>
+        <button type="submit" class="btn login-btn">Login</button>
+        <p id="message" class="message"></p>
+      </form>
+      <div class="links">
+        <button id="registerBtn" class="btn register-btn">Register</button>
+      </div>
+    </div>
+  </div>
+  
+  <script src="/static/script.js"></script>
+</body>
+</html>
