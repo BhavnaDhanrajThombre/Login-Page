@@ -29,14 +29,14 @@ Use the following credentials to test the login:
 ##  Project Structure
 
 Project
-├── __pycache__
 ├── Static
 │ ├── Style.css
 │ └── Script.js
 ├── Templates
 │ └── Login.html
-├── app.py
-└── README.md
+├── __pycache__
+├── README.md
+└── app.py
 
 
 ##  Setup Instructions
